@@ -29,11 +29,12 @@ Millions of students miss school regularly due to distance, lack of transport, i
 - **Multi-language interface**
 - **Low-resource mode** — strips animations/heavy visuals for low-end devices
 - **Data Cost Savings Meter** — shows exactly how much smaller a text-code lesson is versus a video lesson
+- **Comfort controls** (`enhance.js`) - Auto/Light/Dark theme, adjustable text size, online/offline indicator, remembered Low-resource mode (auto-on with Data Saver / 2G), Alt+1/2/3 tab shortcuts, scroll progress and back-to-top
 - **3D Virtual Science Lab widget** — interactive water cycle / circuit / pH demos, fully offline, no network calls
 
 ## Tech Stack
 
-Single self-contained `index.html` — vanilla HTML/CSS/JavaScript, no build step, no framework, no backend server. Lesson codes are encoded client-side; delivery uses native `wa.me` / `sms:` device links, so there are no API keys, no recurring costs, and nothing that requires the school or student to pay for data beyond what an SMS/WhatsApp message already costs.
+`index.html` plus a small drop-in `enhance.js` — vanilla HTML/CSS/JavaScript, no build step, no framework, no backend server. Lesson codes are encoded client-side; delivery uses native `wa.me` / `sms:` device links, so there are no API keys, no recurring costs, and nothing that requires the school or student to pay for data beyond what an SMS/WhatsApp message already costs.
 
 ## Running Locally
 
